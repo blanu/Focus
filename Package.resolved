@@ -2,20 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "FileCheck",
-        "repositoryURL": "https://github.com/trill-lang/FileCheck.git",
-        "state": {
-          "branch": "master",
-          "revision": "482e22960391b02e3630ae3af4dce64d16dd63e7",
-          "version": null
-        }
-      },
-      {
         "package": "Operadics",
-        "repositoryURL": "https://github.com/typelift/Operadics.git",
+        "repositoryURL": "https://github.com/blanu/Operadics.git",
         "state": {
           "branch": "master",
-          "revision": "203fb0c9bd47190995792c48d5f302bc97e17093",
+          "revision": "836ebbe1827dd7b8a5a6c9589f927c3605ed9eaf",
           "version": null
         }
       },
@@ -24,7 +15,7 @@
         "repositoryURL": "https://github.com/typelift/SwiftCheck.git",
         "state": {
           "branch": "master",
-          "revision": "29ddf4877e6135ed2de62eb4c0b1b84b183d3740",
+          "revision": "7494bedfa42972431004a5d478dbf1fc2655e1e6",
           "version": null
         }
       }

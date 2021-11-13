@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.5
 
 import PackageDescription
 
@@ -11,7 +11,7 @@ let package = Package(
 	],
 	dependencies: [
 		.package(url: "https://github.com/typelift/SwiftCheck.git", .branch("master")),
-		.package(url: "https://github.com/typelift/Operadics.git", .branch("master")),
+		.package(url: "https://github.com/blanu/Operadics.git", .branch("master")),
 	],
 	targets: [
 		.target(
