@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
 	name: "Focus",
+        platforms: [.macOS(.v10_15)],
 	products: [
 		.library(
 			name: "Focus",
@@ -20,6 +21,7 @@ let package = Package(
 		.testTarget(
 			name: "FocusTests",
 			dependencies: ["Focus", "Operadics", "SwiftCheck"]),
-	]
+	],
+        swiftLanguageVersions: [.v5]
 )
 
